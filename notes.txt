@@ -1,0 +1,4 @@
+=== cmake notes ==
+mkdir build && cd build && cmake -G "Visual Studio 12 2013" "../"
+** Note the quotes and / vs \ on path, as cmake seems to like / better. 
+cd .. && cmake --build build --config Release
